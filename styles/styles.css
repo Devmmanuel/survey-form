@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: "Fira Code";
+    background-image: url(../images/stadium.jpg);
+    background-size: 100% 100%;
+}
+
+#title {
+    font-family: "Black Ops One";
+    text-align: center;
+}
+
+#description {
+    font-family: "Black Ops One";
+    text-align: center;
+}
+
+#survey-form {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 20%;
+    padding: 5%;
+    color: white;
+    background-color:black;
+}
+
+#name, #edad, #email, #dropdown, textarea {
+    font-family: "Fira Code";
+}
+
+textarea {
+    resize: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
