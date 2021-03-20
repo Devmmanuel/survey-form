@@ -25,7 +25,11 @@ body {
     background-color:black;
 }
 
-#name, #edad, #email, #dropdown, textarea {
+#personal-information input {
+    width: 100%;
+}
+
+#name, #number, #email, #dropdown, textarea {
     font-family: "Fira Code";
 }
 
