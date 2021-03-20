@@ -4,41 +4,93 @@ body {
     font-family: "Fira Code";
     background-image: url(../images/stadium.jpg);
     background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #title {
     font-family: "Black Ops One";
-    text-align: center;
+    font-size: 2vw;
 }
 
 #description {
     font-family: "Black Ops One";
-    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 1.2vw;
 }
 
 #survey-form {
     display: flex;
     flex-direction: column;
     margin: 5% 20%;
-    padding: 5%;
+    padding: 3% 3%;
     color: white;
-    background-color:black;
+    background-color: black;
+    border-radius: 20px;
+    font-size: 1vw;
+    width: 50%;
 }
 
-#personal-information input {
+#personal-information, #additional-information {
+    border-color: greenyellow;
+    margin-bottom: 10%;
+}
+
+#personal-information input{
     width: 100%;
 }
 
-#name, #number, #email, #dropdown, textarea {
+legend {
+    margin: auto;
+}
+
+#dropdown, #third{
+    margin-bottom: 10%;
+}
+
+#name, #number, #email, #dropdown, #submit, textarea {
+    background-color: green;
     font-family: "Fira Code";
+    font-size: 1vw;
+}
+
+#name, #number, #email, #dropdown, #submit {
+    height: 1.8vw;
+}
+
+option:checked {
+    box-shadow: 0 0 0 3px red;
+    color: red;
+}
+
+input[type=radio]:checked + label {
+    color: greenyellow;
+}
+
+input[type="radio"]:checked {
+    box-shadow: 0 0 0 3px green;
+}
+
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 3px green;
 }
 
 textarea {
     resize: none;
+    margin-bottom: 10%;
+}
+
+#submit:hover {
+    background-color: greenyellow;
 }
 
 footer {
-    display: flex;
-    justify-content: center;
+    font-size: 1.3vw;
+}
+
+a {
+    text-decoration-line: none;
 }
 
